@@ -18,6 +18,9 @@ public class NoNibUITabBarController: UITabBarController {
     fatalError("Loading this view from a nib is unsupported in favor of initializer dependency injection.")
   }
 
+  @available(*, unavailable,
+             message: "Loading this view controller from a nib is unsupported in favor of initializer dependency injection."
+  )
   public required init?(coder aDecoder: NSCoder) {
     fatalError("Loading this view from a nib is unsupported in favor of initializer dependency injection.")
   }
