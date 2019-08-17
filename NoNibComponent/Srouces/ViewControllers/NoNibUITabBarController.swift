@@ -7,6 +7,8 @@ import UIKit
 
 public class NoNibUITabBarController: UITabBarController {
 
+  // MARK: - Methods
+
   public init() {
     super.init(nibName: nil, bundle: nil)
   }

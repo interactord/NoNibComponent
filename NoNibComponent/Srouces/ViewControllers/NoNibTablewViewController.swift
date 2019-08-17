@@ -7,6 +7,8 @@ import UIKit
 
 public class NoNibTableViewController: UITableViewController {
 
+  // MARK: - Methods
+
   public init() {
     super.init(nibName: nil, bundle: nil)
   }

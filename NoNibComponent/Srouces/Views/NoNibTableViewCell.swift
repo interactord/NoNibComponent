@@ -7,19 +7,21 @@ import UIKit
 
 public class NoNibTableViewCell: UITableViewCell {
 
-	override init(style: CellStyle, reuseIdentifier: String?) {
-		super.init(style: style, reuseIdentifier: reuseIdentifier)
-	}
+  // MARK: - Methods
 
-	public convenience init(reuseIdentifier: String?) {
-		self.init(style: .default, reuseIdentifier: reuseIdentifier)
-	}
+  override init(style: CellStyle, reuseIdentifier: String?) {
+    super.init(style: style, reuseIdentifier: reuseIdentifier)
+  }
 
-	@available(*, unavailable,
-						 message: "Loading this view from a nib is unsupported in favor of initializer dependency injection."
-	)
-	public required init?(coder aDecoder: NSCoder) {
-		fatalError("Loading this view from a nib is unsupported in favor of initializer dependency injection.")
-	}
+  public convenience init(reuseIdentifier: String?) {
+    self.init(style: .default, reuseIdentifier: reuseIdentifier)
+  }
+
+  @available(*, unavailable,
+             message: "Loading this view from a nib is unsupported in favor of initializer dependency injection."
+  )
+  public required init?(coder aDecoder: NSCoder) {
+    fatalError("Loading this view from a nib is unsupported in favor of initializer dependency injection.")
+  }
 
 }

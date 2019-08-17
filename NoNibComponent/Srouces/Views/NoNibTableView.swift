@@ -7,6 +7,8 @@ import UIKit
 
 public class NoNibTableView: UITableView {
 
+  // MARK: - Methods
+
   public override init(frame: CGRect, style: Style) {
     super.init(frame: frame, style: style)
   }

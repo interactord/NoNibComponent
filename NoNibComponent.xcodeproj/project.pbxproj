@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		290FC71F2307A3BD006621E0 /* NoNibComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 290FC71D2307A3BD006621E0 /* NoNibComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		290FC72B2307F06F006621E0 /* NoNibUICollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290FC72A2307F06F006621E0 /* NoNibUICollectionViewController.swift */; };
+		290FC72D2307F0D8006621E0 /* NoNibTablewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290FC72C2307F0D8006621E0 /* NoNibTablewViewController.swift */; };
 		F426E13D4CBD491316A14637 /* NoNibTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E4DF3527E0E4635BC622 /* NoNibTableView.swift */; };
 		F426E6C41095B98F5B70CA40 /* NoNibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E39300B24330520A91F0 /* NoNibViewController.swift */; };
 		F426E6CBEC6717D6203FEB6C /* NoNibCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E4A7F3595D9A82C937DF /* NoNibCollectionView.swift */; };
@@ -22,6 +24,8 @@
 		290FC71A2307A3BD006621E0 /* NoNibComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NoNibComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		290FC71D2307A3BD006621E0 /* NoNibComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoNibComponent.h; sourceTree = "<group>"; };
 		290FC71E2307A3BD006621E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		290FC72A2307F06F006621E0 /* NoNibUICollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNibUICollectionViewController.swift; sourceTree = "<group>"; };
+		290FC72C2307F0D8006621E0 /* NoNibTablewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNibTablewViewController.swift; sourceTree = "<group>"; };
 		F426E13DF94F3FBFABE03CE2 /* NoNibCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoNibCollectionViewCell.swift; sourceTree = "<group>"; };
 		F426E39300B24330520A91F0 /* NoNibViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoNibViewController.swift; sourceTree = "<group>"; };
 		F426E4A7F3595D9A82C937DF /* NoNibCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoNibCollectionView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 				F426E39300B24330520A91F0 /* NoNibViewController.swift */,
 				F426EA88CE23069FCFD62F5E /* NoNibNavigationController.swift */,
 				F426E997EEE11F89DE674D91 /* NoNibUITabBarController.swift */,
+				290FC72A2307F06F006621E0 /* NoNibUICollectionViewController.swift */,
+				290FC72C2307F0D8006621E0 /* NoNibTablewViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -200,9 +206,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				290FC72B2307F06F006621E0 /* NoNibUICollectionViewController.swift in Sources */,
 				F426E6C41095B98F5B70CA40 /* NoNibViewController.swift in Sources */,
 				F426EFA186C6506F33A53B61 /* NoNibNavigationController.swift in Sources */,
 				F426EAFA09B48C182D8C3E72 /* NoNibUITabBarController.swift in Sources */,
+				290FC72D2307F0D8006621E0 /* NoNibTablewViewController.swift in Sources */,
 				F426E6CBEC6717D6203FEB6C /* NoNibCollectionView.swift in Sources */,
 				F426E13D4CBD491316A14637 /* NoNibTableView.swift in Sources */,
 				F426EC624CD142DB612DC99B /* NoNibView.swift in Sources */,
