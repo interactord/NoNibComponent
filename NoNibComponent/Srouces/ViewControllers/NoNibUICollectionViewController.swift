@@ -5,7 +5,7 @@
 
 import UIKit
 
-public class NoNibUICollectionViewController: UICollectionViewController {
+open class NoNibUICollectionViewController: UICollectionViewController {
 
   // MARK: - Methods
 

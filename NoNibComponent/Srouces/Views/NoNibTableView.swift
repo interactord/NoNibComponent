@@ -5,7 +5,7 @@
 
 import UIKit
 
-public class NoNibTableView: UITableView {
+open class NoNibTableView: UITableView {
 
   // MARK: - Methods
 

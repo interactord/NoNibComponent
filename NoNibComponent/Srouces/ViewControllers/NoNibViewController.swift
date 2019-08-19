@@ -5,7 +5,7 @@
 
 import UIKit
 
-public class NoNibViewController: UIViewController {
+open class NoNibViewController: UIViewController {
 
   // MARK: - Methods
 

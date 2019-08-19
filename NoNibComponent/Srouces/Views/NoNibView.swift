@@ -5,7 +5,7 @@
 
 import UIKit
 
-public class NoNibView: UIView {
+open class NoNibView: UIView {
 
   // MARK: - Methods
 

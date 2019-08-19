@@ -5,7 +5,7 @@
 
 import UIKit
 
-public class NoNibNavigationController: UINavigationController {
+open class NoNibNavigationController: UINavigationController {
 
   // MARK: - Methods
 
