@@ -5,7 +5,7 @@
 
 import UIKit
 
-open class NoNibUITabBarController: UITabBarController {
+open class NoNibTabBarController: UITabBarController {
 
   // MARK: - Methods
 
